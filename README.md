@@ -4,7 +4,7 @@
 This project is the third and final in Udacity's Deep Reinforcement Learning Nanodegree. In this project, the goal is to implement multiagent model/s based on [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/abs/1509.02971) to play Tennis with each other in a Unity ML-Agents environment.
 
 
-![Trained DQN Agent](./img/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif)
+![Trained DQN Agent](./img/ezgif.com-gif-maker.gif)
 
 
 ## Environment description
@@ -17,8 +17,8 @@ The observation space consists of 8 variables corresponding to the position and 
 ## Task description
 
 The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
-•	After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
-•	This yields a single score for each episode.
+-     After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
+-     This yields a single score for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
